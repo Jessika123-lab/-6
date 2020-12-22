@@ -1,4 +1,4 @@
-x=[float(input('el1{0}='.format(i))) for i in range(2)]
-y=[float(input('el2{0}='.format(i))) for i in range(2)]
-dobutok=x[0]*y[0]+x[1]*y[1]
+x=[float(input('el1{0}='.format(i))) for i in range(3)]
+y=[float(input('el2{0}='.format(i))) for i in range(3)]
+dobutok=(x[1]*y[2]-x[2]*y[1])-(x[0]*y[2]-x[2]*y[0])+(x[0]*y[1]-x[1]*y[0])
 print(dobutok)
