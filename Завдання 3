@@ -1,0 +1,4 @@
+x=[float(input('el1{0}='.format(i))) for i in range(2)]
+y=[float(input('el2{0}='.format(i))) for i in range(2)]
+dobutok=x[0]*y[0]+x[1]*y[1]
+print(dobutok)
