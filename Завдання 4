@@ -2,10 +2,6 @@ n=int(input('n='))
 a=[float(input('el{0}='.format(i))) for i in range(n)]
 import math
 for elem in range(len(a)):
-    el= math.fabs(elem)
-    a.append(el)
-
-for el in range(len(a)):
-    if el<1:
-        el==0
-print(a)
+    a[elem]=0 if math.fabs(a[elem])<1 else a[elem]
+sort=[i for i in reversed(sorted(a))]
+print(sort)
